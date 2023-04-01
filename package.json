@@ -11,9 +11,12 @@
   "dependencies": {
     "@types/react": "^18.0.31",
     "and": "^0.0.3",
+    "firebase": "^9.19.1",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-firebaseui": "^6.0.0",
     "typescript": "^5.0.3"
   },
   "devDependencies": {
