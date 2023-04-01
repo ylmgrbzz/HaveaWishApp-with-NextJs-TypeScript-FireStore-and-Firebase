@@ -1,8 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Auth from "@/components/Auth";
+import { useAuthState } from "react-firebase-hooks/auth";
+// import firebaseClient from "firebase/client";
 
 export default function Home() {
+  // const [user, loading, error] = useAuthState(firebaseClient.auth());
+  // console.log({ loading, user });
   return (
     <div>
       <Head>
