@@ -5,7 +5,6 @@ import Layout from "@/components/Layout";
 
 function MyApp({ Component, pageProps }) {
   const [user, loading, error] = useAuthState(firebaseClient.auth());
-  console.log({ loading, user });
 
   return (
     <Layout currentUser={user} loading={loading}>
